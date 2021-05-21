@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/a4dfdf56d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <center>
+        <strong><h2>Student Registration</h2></strong>
+    </center>
+    <div class="container first">
+        <form class="needs-validation" novalidate>
+            <h3>Register Here</h3>
+
+            <!--First name-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">First name</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">First Name</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="First Name" required>
+                        <div class="invalid-feedback">Please provide a valid Name.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--last name-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Last name</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Last Name</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Last Name" required>
+                        <div class="invalid-feedback">Please provide a valid Name.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--father's name-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Father's name</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Father's Name</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Father's Name" required>
+                        <div class="invalid-feedback">Please provide a valid Name.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Mother's name-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Mother's name</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Mother's Name</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Mother's Name" required>
+                        <div class="invalid-feedback">Please provide a valid Name.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Branch-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Branch</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Branch</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Branch" required>
+                        <div class="invalid-feedback">Please provide a valid Branch.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Date Of Birth-->
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Dob</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Dob</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <input type="date" class="form-control" id="inlineFormInputGroup" placeholder="Date of birth" required>
+                        <div class="invalid-feedback">Please provide your DOB.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Gender-->
+
+            <div class="naming">
+                <div class="col-auto">
+                    <label class="sr-only" for="inlineFormInputGroup">Gender</label>
+                    <div class="input-group mb-2">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Gender</label>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="fas fa-user-alt"></i>
+                            </div>
+                        </div>
+                        <div class="form-check form-check-inline spa">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+
+                            <!--Option of Gender-->
+                            <label class="form-check-label" for="inlineRadio1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline spa">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option">
+                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Religion-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Religion</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Religion</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user-alt"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Religion" required>
+                            <div class="invalid-feedback">Please provide your Valid Religion.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Category-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Gender</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Category</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user-alt"></i>
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">SC</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">ST</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">OBC</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4">General</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Mail-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">E-mail</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">E-mail</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-envelope-square"></i>
+                                </div>
+                            </div>
+                            <input type="email" class="form-control" id="inlineFormInputGroup" placeholder="E-mail" required>
+                            <div class="invalid-feedback">Please provide a Valid Mail ID.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Phone number-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Phone Number</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Phone Number</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                            </div>
+                            <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" class="form-control" id="inlineFormInputGroup" placeholder="Phone Number" required>
+                            <div class="invalid-feedback">Please Enter valid Phone Number as per the requirments.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Address-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Present Address</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Present Address</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-house-user"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Present Address" required>
+                            <div class="invalid-feedback">Please Add Your Address.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Address 2-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Permanent Address</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Permanent Address</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-house-user"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Permanent Address" required>
+                            <div class="invalid-feedback">Please Add Your Address.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Facilities-->
+
+                <div class="naming">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Facilities</label>
+                        <div class="input-group mb-2">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Facilities</label>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-house-user"></i>
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Hostel</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Transport</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox3">Canteen</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox4">Books</label>
+                            </div>
+                            <div class="form-check form-check-inline spa">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox5">Uniforms</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Button of Sign in And Cancel-->
+
+                <button type="submit" class="btn btn-primary bton">Sign in</button>
+                <button type="submit" class="btn btn-warning bton">Cancel</button>
+        </form>
+        </div>
+</body>
+
+</html>
